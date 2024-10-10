@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    scrollbar-width: thin;
+    scrollbar-color: #e4ebe7 #fff;
+}
+
+/* Estilos básicos del scrollbar */
+.scrollbar-thin {
+    scrollbar-width: thin;
+    /* Ancho del scrollbar */
+    scrollbar-color: #686868 #d1d5db;
+    /* Color del "pulgar" y de la pista del scrollbar */
+}
+
